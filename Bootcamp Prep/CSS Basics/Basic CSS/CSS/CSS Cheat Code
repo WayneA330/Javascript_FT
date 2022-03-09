@@ -1,0 +1,16 @@
+.class
+#id
+*
+element
+element, element
+element element (ex: h2 p) it means i want you to select all p's that are inside h2
+element > element (ex: h2 > p ) it means I want you to select all paragraphs that have parent h2
+element + element (ex: h2 + p) it means to select all p elements that are directly after h2
+:hover
+:last-child
+:first-child
+!important (not recommended)
+
+
+em = we want the font size to be x times the containing element. (ex: containing element: 20px, then 5em will be 100px)
+rem = it will increase in relation to the size of the root element.
