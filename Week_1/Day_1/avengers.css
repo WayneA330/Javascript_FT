@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+header {
+    display: flex;  
+    justify-content: flex-end;
+    height: 55px;
+    background-color: navy;
+}
+
+.img_2 {
+    margin-right: auto;
+    padding: 7px;
+    cursor: pointer;
+}
+
+nav {
+    width: 400px;
+}
+
+.nav-links {
+    list-style: none;
+    margin-top: 20px;
+}
+ 
+.nav-links li {
+    display: inline;
+    padding: 0 20px;
+    margin-top: 16px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(https://images.indianexpress.com/2020/04/captain-america-avengers-endgame-759.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+
+.section1 {
+    margin-top: 200px;
+}
+
+h1, h2 {
+    font-size: 40px;
+    text-align: center;
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    font-size: 25px;
+    line-height: 150px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: navy;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    padding-left: 15px;
+    padding-top: 15px;
+    
+}
+
+.container h4 {
+    color: white
+}
+
+.social a {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}

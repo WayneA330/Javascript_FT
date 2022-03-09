@@ -1,0 +1,46 @@
+/* DIV */
+.r_all {
+    height: 60px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: #3BD012;
+}
+
+
+/* Table */
+.flag {
+    width: 450px;
+    height: 240px;
+    border: none;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.r1 {
+    background-color: red;
+}
+
+.r2 {
+    background-color: blue;
+}
+
+.r3 {
+    background-color: yellow;
+}
+
+.r4 {
+    background-color: #3BD012;
+}
