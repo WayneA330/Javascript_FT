@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: wheat;
+    height: 50px;
+}
+
+.logo {
+    margin-right: auto;
+    padding: 7px;
+}
+
+.color-logo {
+    color: black;
+}
+
+nav {
+    margin-right: 20px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links a li {
+    display: inline-block;
+    margin: 13px;
+    color: black;
+    padding: 5px;
+}
+
+.nav-links a li:hover {
+    background-color: burlywood;
+    color: white;
+}
+
+footer {
+    position: relative;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
