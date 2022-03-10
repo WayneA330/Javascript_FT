@@ -3,7 +3,7 @@
     width: 450px;
     height: 570px;
     margin: auto;
-    /* background-color: antiquewhite; */
+    background-color: antiquewhite;
     display: grid;
     grid-template-columns: 130px 1fr 1fr;
     grid-gap: 10px;
