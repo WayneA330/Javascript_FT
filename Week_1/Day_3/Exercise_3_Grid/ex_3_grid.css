@@ -1,0 +1,58 @@
+.container {
+    width: 750px;
+    height: 340px;
+    /* background-color: antiquewhite; */
+    margin: auto;
+    margin-top: 100px;
+    padding: 7px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 60px 60px 60px 60px 60px;
+}
+
+.first {
+    background-color: #9A073F;
+    grid-column: 1 / span 3;
+}
+
+.second {
+   background-color: darkslateblue; 
+   grid-row: 2 / span 2;
+}
+
+.third {
+    background-color: #807CB7;
+}
+
+.fourth {
+    background-color: skyblue;
+}
+
+.fifth {
+    background-color: plum;
+    grid-column: 2 / span 2;
+}
+
+.sixth {
+    background-color: #9A073F;
+    grid-column: 1 / span 2;
+}
+
+.seventh {
+    background-color: darkslateblue;
+}
+
+.eighth {
+    background-color: #807CB7;
+    grid-column: 1 / span 3;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
