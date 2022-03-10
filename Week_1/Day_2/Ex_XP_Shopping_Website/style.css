@@ -55,6 +55,9 @@ nav {
     width: fit-content;
     height: fit-content;
     background-color: gray;
+    text-align: center;
+    border: 2px solid black;
+    
 }
 
 
