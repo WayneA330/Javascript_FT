@@ -3,12 +3,12 @@
     /* DIFFERENT WAYS OF USING GRID*/
     /* grid-template-columns: 100px 100px 100px; */
     /* grid-template-columns: repeat(3, 100px); */
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
     /* grid-template-columns: 1fr 2fr 1fr; */
     /* grid-template-columns: 100px 2fr 1fr; */
 
-    /* grid-template-columns: 100px 100px;
-    grid-template-rows: repeat(3, 50px); */
+    grid-template-columns: 100px 100px;
+    grid-template-rows: repeat(3, 50px);
 
     /* grid-template-columns: minmax(200px, 400px) 200px; */
 
