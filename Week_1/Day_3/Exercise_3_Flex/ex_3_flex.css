@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    width: 500px;
+    height: 70px;
+    border: 1px solid black;
+}
+
+.logo {
+    width: 30px;
+    height: 20px;
+    background-color: blueviolet;
+    padding: 10px;
+}
