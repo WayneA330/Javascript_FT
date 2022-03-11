@@ -1,13 +1,31 @@
 .container {
     display: flex;
+    flex-direction: row;
     width: 500px;
-    height: 70px;
+    height: 60px;
     border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .logo {
     width: 30px;
     height: 20px;
     background-color: blueviolet;
+    padding: 10px;
+}
+
+.team {
+    width: 200px;
+    height: 20px;
+    background-color: skyblue;
+    padding: 10px;
+}
+
+.products {
+    width: 200px;
+    height: 20px;
+    background-color: orange;
     padding: 10px;
 }
