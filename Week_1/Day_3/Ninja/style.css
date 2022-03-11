@@ -1,0 +1,61 @@
+.container_ex {
+    display: grid;
+    width: 670px;
+    height: 670px;
+    border: 2px solid black;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    padding: 2px;
+}
+
+.container_in {
+    width: 130px;
+    height: 130px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+
+/* For the tiles */
+.square {
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+}
+
+.one {
+    background-color: #ff7105;
+}
+
+.two {
+    background-color: #ffb26d;
+}
+
+.three {
+    background-color: #a74b00;
+}
+
+.four {
+    background-color: #ffb26d;
+}
+
+.five {
+    background-color: #a74b00;
+}
+
+.six {
+    background-color: #ff7105;
+}
+
+.seven {
+    background-color: #a74b00;
+}
+
+.eight {
+    background-color: #ff7105;
+}
+
+.nine {
+    background-color: #ffb26d;
+}
