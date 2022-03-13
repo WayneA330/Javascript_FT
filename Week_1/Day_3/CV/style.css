@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 5em;
+    background-color: #f4f3f6;
+}
+
+p, li {
+    color: grey;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.name p {
+    color: gray;
+    margin-top: 20px;
+}
+
+.notbold {
+    font-weight: 100;
+}
+
+.image {
+    width: 150px;
+    height: 230px;
+    background-color: orange;
+}
+
+.container_ex {
+    margin-top: 3.5em;
+    width: 100%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 300px 300px;
+}
+
+/* Contact */
+.contact > h2 {
+    letter-spacing: 6px;
+}
+
+.icon {
+    margin-right: 20px;
+    padding-left: 7px;
+    padding-top: 7px;
+    width: 25px;
+    height: 25px;
+    background-color: #eb9c19;
+    border-radius: 50%;
+}
+
+.mail {
+    margin: 20px 0 15px 0;
+}
+
+.phone {
+    margin: 0 0 15px 0;
+}
+
+.link {
+    margin: 0 0 15px 0;
+}
+
+/* Profile */
+.profile h2 {
+    letter-spacing: 6px;
+}
+
+.p-content {
+    margin-top: 20px;
+}
+
+.p-content p .bold {
+    font-weight: bold;
+    color: black;
+}
+
+.p-content p {
+    line-height: 1.5em;
+}
+
+/* Education */
+.education h2 {
+    letter-spacing: 6px;
+}
+
+.detail1 h3:first-child {
+    margin-top: 20px;
+}
+
+.detail1 p {
+    line-height: 25px;
+}
+
+/* Work Experience */
+.w-experience h2 {
+    letter-spacing: 6px;
+}
+
+.w-experience h3 {
+    margin: 20px 0 10px 0;
+}
+
+.w-experience ul {
+    margin-left: 50px;
+}
+
+.w-experience p, ul {
+    line-height: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 20px;
+    }
+
+    .name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+    }    
+
+    /* .container_ex {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1, 1fr);
+    } */
+}
+
+@media screen and (max-width: 940px) {
+    .container_ex {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}

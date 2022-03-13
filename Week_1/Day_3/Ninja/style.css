@@ -6,7 +6,7 @@
     grid-template-columns: repeat(5, 1fr);
     gap: 5px;
     padding: 2px;
-}
+} 
 
 .container_in {
     width: 130px;
@@ -14,14 +14,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5px;
-}
+}›
 
 
 /* For the tiles */
-.square {
+.square { 
     width: 40px;
     height: 40px;
-    background-color: orange;
 }
 
 .one {
