@@ -109,3 +109,51 @@ console.log(str3 + str4);
     //isNaN() - check if variable is Not a Number
     console.log(isNaN(pi));
     console.log(isNaN("number"));
+
+// Boolean
+let status = true;
+
+console.log(status);
+console.log(Number(status));
+
+let op = Boolean(10 > 9);
+console.log(op);
+
+
+// Comparisons
+/*
+= means assign
+== means compare value only
+=== means compare value and data type
+*/
+
+let var1 = 5;
+let var2 = '5';
+
+console.log(Boolean(var1==var2)); //true
+console.log(Boolean(var1===var2)); //false
+console.log(Boolean(var1!=var2)); 
+console.log(Boolean(var1!==var2)); 
+
+/*
+|| - OR
+&& - AND
+! - Not
+*/
+
+console.log(Boolean((var1 > 10) || (var1 === var2)));
+console.log(Boolean((var1 > 0) && (var1 == var2)));
+
+
+// User Interface functions
+// Alert
+
+alert("Please wake up!");
+
+// Prompt - ask user for an input
+let input = prompt("Please enter your name");
+console.log(input);
+
+// Confirm - ask a question 
+let isOK = confirm("Are you understanding JS?");
+console.log(isOK);
