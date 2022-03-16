@@ -37,6 +37,24 @@ students[10] = "Samuel Eto'o";
 console.log(students);
 console.log(students[9]); // Undefined
 
+// Nested Array
+let students_array = [ 
+    ["Oliver", 25], 
+    ["Dheeksha", 20], 
+    ["Henry", 29, "Beau-Bassin", ['Rafael', 'Liliane']], 
+    ["Wayne", 18], 
+];
+
+
+console.log(students_array[0]);
+student_0 = students_array[0]; 
+console.log(student_0[0]);
+// or
+console.log(students_array[0][0]);
+console.log(students_array[0][1]);
+
+console.log (students_array[2][3][0])
+
 // ARRAY METHODS
 //Push - add element at last position
 students.push("Yeshna");
