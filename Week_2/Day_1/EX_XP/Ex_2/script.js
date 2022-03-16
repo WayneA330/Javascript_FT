@@ -19,8 +19,10 @@ console.log(watchedSeries);
 
 delete watchedSeries[1];
 console.log(watchedSeries);
+// or
+// delete watchedSeries.indexOf('black mirror');
 
-// 6. Different Methods
+// 4. Different Methods
 watchedSeries[2].charAt(2);
 console.log(watchedSeries[2].charAt(2));
 
