@@ -1,4 +1,4 @@
-cTemp = 30;
-fTemp = ((cTemp / 5) * 9) + 32;
+let cTemp = 37.5;
+let fTemp = ((cTemp / 5) * 9) + 32;
 
 console.log(fTemp);
