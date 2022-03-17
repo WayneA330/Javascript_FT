@@ -9,7 +9,7 @@ for (let i = 0; i < arr.length; i++) {
     console.log(arr[i]);
 }
 
-// For In Loop
+// For In Loop - for objects and arrays
 // for arrays
 for (let i in arr) {
     console.log(i, arr[i]); // index, value
