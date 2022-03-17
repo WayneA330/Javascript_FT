@@ -14,7 +14,7 @@ if (verb.length >= 3) {
 
         verb += 'ing';
     }
-    
+
     else {
         verb = verb + 'ly'; // or verb += 'ly';
     }
@@ -24,6 +24,3 @@ console.log(verb);
 
 
 
-// (verb.length >= 3 && verb.endsWith('ing')) {
-//     console.log(verb + 'ly');
-// }
