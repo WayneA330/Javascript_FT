@@ -1,4 +1,4 @@
-grade = prompt('Please enter your grade');
+let grade = prompt('Please enter your grade');
 
 if (grade > 90) {
     console.log('A');
