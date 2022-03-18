@@ -1,4 +1,4 @@
-family =  {
+let family =  {
     brother: 'Mathias',
     sister: 'Sophie',
     mother: 'Annick',
