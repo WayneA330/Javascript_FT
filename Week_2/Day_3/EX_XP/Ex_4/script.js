@@ -16,12 +16,13 @@ let building = {
 
 console.log(building.numberOfFloors);
 
-console.log(building.numberOfAptByFloor.firstFloor + building.numberOfAptByFloor.thirdFloor);
+console.log(building.numberOfAptByFloor.firstFloor);
+console.log(building.numberOfAptByFloor.thirdFloor);
 
 console.log(building.nameOfTenants[1] + ': ' +building.numberOfRoomsAndRent.dan[0]);
 
 
-sumSD = building.numberOfRoomsAndRent.sarah[1] + building.numberOfRoomsAndRent.david[1];
+let sumSD = building.numberOfRoomsAndRent.sarah[1] + building.numberOfRoomsAndRent.david[1];
 console.log(sumSD);
 
 building.numberOfRoomsAndRent.dan[1] = 1200;
