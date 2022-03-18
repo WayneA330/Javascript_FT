@@ -9,7 +9,11 @@ if (verb.length >= 3) {
             verb += 'n'; // or verb = verb + 'n';
         }
         else if (verb.endsWith('m')) {
-            verb += 'm'
+            verb += 'm';
+        }
+
+        else if (verb.endsWith('p')) {
+            verb += 'p';
         }
 
         verb += 'ing';
