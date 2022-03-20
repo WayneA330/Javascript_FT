@@ -16,14 +16,24 @@ let prices = {
 
 let shoppingList = ["banana", "orange", "apple"];
 
-function myBill() {
-    for (i in stock) {
-        console.log(stock[i]);
+// function myBill() {
+//     let totalPrice = 0;
 
-        if (shoppingList = (i, stock[i] == 0)) {
-            console.log('hi');
-        }
-    }
-}
+//     for (let i = 0; i < shoppingList.length; i++) {
+//         console.log(i);
+
+//         let fruit = shoppingList[i];
+
+//         if (stock[fruit] > 0){
+//             console.log("In stock");
+
+//             totalPrice += prices[fruit];
+
+//             stock[fruit]--;
+//         }
+
+//         console.log('The total price will be ' + totalPrice);
+//     }
+// }
 
 myBill();
