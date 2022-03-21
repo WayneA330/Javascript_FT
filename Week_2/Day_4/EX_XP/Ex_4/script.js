@@ -16,24 +16,21 @@ let prices = {
 
 let shoppingList = ["banana", "orange", "apple"];
 
-// function myBill() {
-//     let totalPrice = 0;
+function myBill() {
+    let total_price = 0;
+    // check if item in stock
+    for (let item of shoppingList) {
+        // if in stock get prices
+        if (stock[item] > 0) {
+            total_price += prices[item];
+            stock[item]--; // decrease stock by one
+        }
+    }
+    
+    // return total price
+    console.log(stock)
+    return total_price;
+}
 
-//     for (let i = 0; i < shoppingList.length; i++) {
-//         console.log(i);
-
-//         let fruit = shoppingList[i];
-
-//         if (stock[fruit] > 0){
-//             console.log("In stock");
-
-//             totalPrice += prices[fruit];
-
-//             stock[fruit]--;
-//         }
-
-//         console.log('The total price will be ' + totalPrice);
-//     }
-// }
-
-myBill();
+let bill = myBill();
+console.log(bill);
