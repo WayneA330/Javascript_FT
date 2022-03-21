@@ -47,7 +47,7 @@ for (div of div_qu) {
 let elem_h2 = document.createElement('h2');
 elem_h2.innerText = "It is raining a lot!!!";
 
-body.appendChild(elem_h2);
+body.appendChild(elem_h2); // adding element as the last child
 div1p1.appendChild(elem_h2);
 
 for (let i = 0; i < 5; i++) {
