@@ -14,6 +14,7 @@ li_remove[0].style.border = '1px solid black';
 font_body = document.body;
 font_body.style.fontSize = '20px';
 
+// Bonus
 if (div_edit[0].style.backgroundColor = 'lightBlue') {
     alert('Hello x and y');
 }
