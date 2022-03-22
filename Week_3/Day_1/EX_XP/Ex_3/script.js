@@ -11,7 +11,7 @@ ul_list.removeChild(li_remove[0]);
 console.log(li_remove[0]);
 li_remove[0].style.border = '1px solid black';
 
-font_body = document.body;
+let font_body = document.body;
 font_body.style.fontSize = '20px';
 
 // Bonus
