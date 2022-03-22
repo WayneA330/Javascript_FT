@@ -1,5 +1,5 @@
 let nav_edit = document.getElementById('navBar');
-console.log(nav_edit.setAttribute('id', 'socialNetworkNavigation'));
+nav_edit.setAttribute('id', 'socialNetworkNavigation');
 
 let li_element = document.createElement('li');
 
