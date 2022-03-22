@@ -7,7 +7,7 @@ let text = document.createTextNode('Logout');
 
 li_element.appendChild(text);
 
-let up_ul = document.getElementsByTagName('ul'); // getting the array need index to get element 
+let up_ul = document.getElementsByTagName('ul'); // getting the array, need index to get element 
 
 up_ul[0];
 console.log(up_ul[0]);
