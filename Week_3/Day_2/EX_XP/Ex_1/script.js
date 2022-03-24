@@ -23,9 +23,8 @@ button_bold.addEventListener('click', function(ev) {
 });
 
 h1.addEventListener('mouseover', function (ev) {
-    let random = Math.floor(Math.random() * 101);
-    // console.log(random);
-    h1.style.fontSize = random
+    let random = Math.floor((Math.random() * 101) + 1);
+    h1.style.fontSize = random + 'px';
 })
 
 let fade_out_p = document.querySelectorAll('p')[1];
