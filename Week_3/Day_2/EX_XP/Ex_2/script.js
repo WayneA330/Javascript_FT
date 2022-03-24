@@ -14,7 +14,7 @@ console.log(name_fname);
 console.log(name_lname);
 
 
-submit.addEventListener('submit', getData);
+submit.addEventListener('submit', getData());
 
 fname.setAttribute('value', '');
 fname.setAttribute('required', '');
@@ -24,14 +24,17 @@ fname.setAttribute('required', '');
 function getData() {
     let input1 = fname.value;
     let input2 = lname.value;
-    // console.log(input1, input2);
+    console.log(input1, input2);
 
-    let li_append1 = li_append1.appendChild(input1);
-    let li_append2 = li_append2.appendChild(input2);
+    let li_append1 = document.createElement('li');
+    li_append1.innerText = input1;
+    let li_append2 = document.createElement('li');
+    li_append2.innerText = input2;
 
     let ul_append = document.getElementsByClassName('usersAnswer')[0];
     ul_append.appendChild(li_append1);
     ul_append.appendChild(li_append2);
+    console.log(ul_append);
     
 }
 
