@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        #outer {
+            width: 400px;
+            height: 400px;
+            background-color: black;
+            position: relative;
+        }
+
+        #inner {
+            width: 50px;
+            height: 50px;
+            background-color: green;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <button type="button" onclick="set_timeout()">Set Timeout</button>
+    <button type="button" onclick="clear_timeout()">Clear Timeout</button>
+    <button type="button" onclick="set_interval()">Set Interval</button>
+    <button type="button" onclick="clear_interval()">Clear Interval</button>
+
+
+    <button type="button" onclick="move_it()">Move! Please:$</button>
+    <div id="main">
+        <div id="outer">
+            <div id="inner"></div>
+        </div>
+    </div>
+    
+    <script src="animation.js"></script>
+</body>
+</html>
