@@ -14,7 +14,7 @@ console.log(name_fname);
 console.log(name_lname);
 
 
-submit.addEventListener('submit', getData());
+submit.addEventListener('click', getData);
 
 fname.setAttribute('value', '');
 fname.setAttribute('required', '');
