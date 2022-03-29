@@ -26,37 +26,27 @@ const gameInfo = [
 ];
 
 let usernames = [];
+let winners = [];
+let score = 0;
 
-gameInfo.forEach((value) => {
-    let input = value.username;
-    input_add = `${input}!`
-    usernames.push(input_add);
+gameInfo.forEach((player) => {
+    // 1
+    usernames.push(`${player.username}!`);
+    // 2
+    player.score > 5 ? winners.push(player.username) : 'below 5';
+    // 3
+    score += player.score;
 });
 
 console.log(usernames);
-
-
-
-
-let winners = [];
-
-gameInfo.forEach((value) => {
-    let input = value.score;
-    let input_add = value.username;
-    // console.log(input);
-    return input > 5 ? winners.push(input_add) : console.log('Not a number greater than 5');
-});
-
 console.log(winners);
+console.log(score);
 
 
 
-gameInfo.forEach((value, idx) => {
-    let input = value.score;
-    // console.log(input);
-    
-    
-});
+
+
+
 
 
 
