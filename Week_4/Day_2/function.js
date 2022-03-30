@@ -16,7 +16,7 @@
 
 function startProcess() {
     function step1() {
-    console.log('Step 1 - Data collection');
+        console.log('Step 1 - Data collection');
     }
     function step2() {
         console.log('Step 2 - Store in Database');
