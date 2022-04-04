@@ -4,15 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8H6GMRNQFH"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-8H6GMRNQFH');
-    </script>
     <style>
         #contact {
             display: flex;
@@ -71,9 +62,11 @@
     <br>
 
     <form id="contact">
-        <input type="text" name="name" placeholder="Enter your name">
-        <input type="email" name="email" placeholder="Enter your email">
-        <textarea name="message" placeholder="Type your message here" cols="50" rows="5"></textarea>
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <input type="password" name="password" minlength="8">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <textarea name="message" placeholder="Type your message here" cols="50" rows="5" required></textarea>
+        <input name="tel1" type="tel" pattern="[0-9]{3}" placeholder="###" size="2"/>
         <button type="submit">Send!</button>
     </form>
 
