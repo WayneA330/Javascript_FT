@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8H6GMRNQFH"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-8H6GMRNQFH');
+    </script>
+    <style>
+        #contact {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            height: 200px;
+            justify-content: space-between;
+            margin-top: 25px;
+        }
+    </style>
+    <title>HTTP and Forms</title>
+</head>
+<body>
+    <h1>HTTP and Forms</h1>
+
+    <form name="numbers">
+        <input name="one" value="1">
+        <input name="two" value="2">
+    </form>
+    
+    <br>
+
+    <form name="user">
+        <fieldset name="userFields">
+            <input name="login" type="text">
+            <input name="password" type="password">
+        </fieldset>
+    </form>
+
+    <br>
+
+    <form name="controls">
+        <input type="checkbox" name="stresslevel" checked="true">
+        <label for="stresslevel">Are you ready?</label>
+
+        <textarea name="longtext" cols="50" rows="5" placeholder="Type your message here"></textarea>
+    </form>
+
+
+    <label for="select">What is your stress level today?</label>
+
+    <select id="select">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5" selected="true">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+
+    <br>
+
+    <form id="contact">
+        <input type="text" name="name" placeholder="Enter your name">
+        <input type="email" name="email" placeholder="Enter your email">
+        <textarea name="message" placeholder="Type your message here" cols="50" rows="5"></textarea>
+        <button type="submit">Send!</button>
+    </form>
+
+    <form action="http://google.com/search" method="get">
+        <input type="text" name="q">
+        <input type="submit" value="Search Google?">
+    </form>
+
+    <script src="form.js" charset="utf-8"></script>
+</body>
+</html>
