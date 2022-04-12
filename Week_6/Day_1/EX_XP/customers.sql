@@ -5,6 +5,6 @@
 
 -- SELECT * FROM customers WHERE last_name = 'Jones';
 
-SELECT * FROM customers WHERE first_name != 'Scott';
+-- SELECT * FROM customers WHERE first_name != 'Scott';
 
--- SELECT * FROM customers;
+SELECT * FROM customers;
