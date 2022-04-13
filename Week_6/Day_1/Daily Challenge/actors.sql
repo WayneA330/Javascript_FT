@@ -42,5 +42,25 @@
 
 -- INSERT INTO actors (first_name, last_name, age, number_oscars)
 -- VALUES(NULL);
+-- SELECT * FROM actors;
+
+
+-- INSERT INTO actors (first_name, last_name, age, number_oscars) VALUES('George','Clooney','06/05/1961 ', 1);
+
+-- SELECT first_name, last_name, sum(number_oscars) FROM actors GROUP BY first_name, last_name ORDER BY min(number_oscars);
+
+
+-- EXERCISE - AGGREGATE FUNCTION
+
+-- SELECT avg(number_oscars) FROM actors;
+
+-- SELECT DISTINCT ON (number_oscars) number_oscars, first_name, last_name FROM actors;
+
+-- SELECT * FROM actors WHERE age > '01/01/1970';
+
+-- SELECT * FROM actors WHERE first_name in ('David', 'Morgan', 'Will');
 
 -- SELECT * FROM actors;
+
+
+
