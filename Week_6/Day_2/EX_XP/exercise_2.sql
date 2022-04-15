@@ -46,9 +46,10 @@
 
 -- 13.
 -- SELECT * FROM film
--- LEFT JOIN inventory
+-- LEFT JOIN inventory - takes all from film
 -- ON film.film_id = inventory.film_id
 -- WHERE film.film_id NOT IN (SELECT inventory.film_id FROM inventory)
+-- -- WHERE inventory.film_id is NULL - any field in inventory will be null
 -- ORDER BY film.film_id
 
 -- 14.
