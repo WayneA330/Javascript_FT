@@ -45,7 +45,7 @@ app.get('/about', (req, res) => {
 app.get('/tutorial/:notion', (req, res) => {
     console.log("req.params: ", req.params)
     res.send(`Tutorial about ${req.params.notion}!`)
-})
+}) 
 
 // app.get('/products/:product', (req, res) => {
 //     console.log('Product requested:', req.params.product);

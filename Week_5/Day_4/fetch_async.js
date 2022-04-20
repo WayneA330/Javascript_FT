@@ -14,7 +14,7 @@ fetch(url) // pass the url as a parameter
     // handle the errors (rejected)
     console.log('An error occurred.');
     console.log(response);
-})
+}) 
 
 async function get_character() {
     let character = await fetch(url);
