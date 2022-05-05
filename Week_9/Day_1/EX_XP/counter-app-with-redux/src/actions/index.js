@@ -1,16 +1,18 @@
-const increase = () => {
+const add = value => {
     return {
-        type: "INCREASE_COUNT"
+        type: "ADD",
+        number: value
     }
 }
 
-const decrease = () => {
+const substract = value => {
     return {
-        type: "DECREASE_COUNT"
+        type: "SUBSTRACT",
+        number: value
     }
 }
 
 export {
-    increase,
-    decrease,
+    add,
+    substract,
 }

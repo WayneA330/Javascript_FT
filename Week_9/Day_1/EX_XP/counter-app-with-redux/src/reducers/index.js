@@ -1,14 +1,24 @@
-import { increase, decrease } from './actions';
-import { store } from './store';
-
 const reducer = (state, action) => {
-    switch(action.type) {
-        case increase.INCREASE_COUNT:
-            return store.getState().count + 1
-        case decrease.DECREASE_COUNT:
-            return store.getState().count - 1
+    let new_value;
+
+    switch (action.type) {
+        case "ADD":
+            new_value = Number(action.number) + 1
+
+            return {
+                ...state, //copying the original state
+                value: new_value, //update the value key from the state
+            }
+
+        case "SUBSTRACT":
+            new_value = Number(action.number) - 1
+            return {
+                ...state, //copying the original state
+                value: new_value, //update the value key from the state
+            }
+
         default:
-            return state;
+            return state; //Otherwise, return the existing state unchanged
     }
 }
 

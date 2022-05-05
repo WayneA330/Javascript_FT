@@ -1,12 +1,12 @@
 import React from 'react';
-import Counter from './components';
+import Counter from './components/Counter';
 import { store } from './store';
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <Counter count={store.getState().count} />
+        <Counter value={store.getState().value} />
       </div>
     )
   }
