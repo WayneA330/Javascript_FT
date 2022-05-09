@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "js-ft-app",
+    "slug": "js-ft-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "splash": {
+      "image": "./assets/puck_man.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "jsftapp.wayne"
+    }
+  },
+  "name": "js-ft-app"
+}
